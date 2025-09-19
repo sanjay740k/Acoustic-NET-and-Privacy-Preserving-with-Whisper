@@ -1,0 +1,34 @@
+Input Audio
+english/audios/en_audio_1.wav
+
+Expected Text
+but in my own opinion this <per> helen vaughan <end> or missus <per> herbert <end> is only the beginning she will come back to <loc> london austin <end> depend on it she will come back and we shall hear more about her then
+
+
+
+Outputs:
+Enhancing Mode:
+but in my own opinion this <per> helen vaughan <end> or missus <per> herbert <end> is only the beginning she will come back to <loc> london austin <end> depend on it she will come back and we shall hear more about her than
+
+
+Privacy Preserving Mode:
+Text Modelity:
+All Category
+but in my own opinion this ***** or missus ***** is only the beginning she will come back to ***** depend on it she will come back and we shall hear more about her than
+PER Category
+but in my own opinion this ***** or missus ***** is only the beginning she will come back to <loc> london austin <end> depend on it she will come back and we shall hear more about her than
+LOC Category
+but in my own opinion this <per> helen vaughan <end> or missus <per> herbert <end> is only the beginning she will come back to ***** depend on it she will come back and we shall hear more about her than
+
+Audio Modelity:
+All Category
+english/audios/en_audio_1_all.wav
+LOC Category
+english/audios/en_audio_1_loc.wav
+PER Category
+english/audios/en_audio_1_per.wav
+
+
+
+
+
