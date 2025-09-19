@@ -10,25 +10,35 @@ Acoustic Named Entity Tagging and Privacy Preserving with Whisper for English an
 
 
 Example:
-Input Audio
+
+Input Audio:
 {Path}/filename.wav
 
-Transcription (For reference)
+
+Transcription (For reference):
 अमन भोपाल में रहता है
 
+
 Outputs:
+
 Enhancing Mode:
 <per> अमन <end> <loc> भोपाल <end> में रहता है
 
 
+
 Privacy Preserving Mode:
+
 Text Modelity:
-All Category
+
+All Category:
 ***** ***** में रहता है
-LOC Category
+
+LOC Category:
 <per> अमन <end> ***** में रहता है
-PER Category
+
+PER Category:
 ***** <loc> भोपाल <end> में रहता है
+
 
 
 
