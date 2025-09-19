@@ -1,0 +1,27 @@
+Input Audio
+hindi/audios/hi_audio_1.wav
+
+Expected Text
+<loc> गंगा नदी <end> के पास हो गया आप हाँ तो आप कहाँ जाना चाहते हैं
+
+
+
+Outputs:
+Enhancing Mode:
+<loc> गंगा नदी <end> के पास हो गया आप हाँ तो आप कहाँ जाना चाहते हैं
+
+
+Privacy Preserving Mode:
+Text Modelity:
+All/PER Category
+***** के पास हो गया आप हाँ तो आप कहाँ जाना चाहते हैं
+PER Category
+***** के पास हो गया आप हाँ तो आप कहाँ जाना चाहते हैं
+
+Audio Modelity:
+All/PER Category
+hindi/audios/hi_audio_1_all.wav
+
+
+
+
